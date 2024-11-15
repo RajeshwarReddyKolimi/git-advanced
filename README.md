@@ -36,4 +36,13 @@
 - Tried reverting using `3` and unstaged the files.
 - Againg staged them using `2`.
 
-## 
+## Undoing changes using `git revert`
+
+- Changed text in file3.md and committed 3 times.
+- Using `git log` copied the previous commit hash.
+- Using `git revert {commit-hash}` reverted back to previous commit.
+- This created a new commit with the previous state.
+
+## Git Reset
+
+- 
