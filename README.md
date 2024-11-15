@@ -36,4 +36,6 @@
 - Tried reverting using `3` and unstaged the files.
 - Againg staged them using `2`.
 
-## 
+## Undoing changes using `git revert`
+
+- 

@@ -1,1 +1,1 @@
-New text. Changing text for interactive staging. Added some text for reverting.
+New text. Changing text for interactive staging. Added some text for revert texting.
