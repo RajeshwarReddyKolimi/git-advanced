@@ -19,4 +19,8 @@
 ## Stashing and Cleaning
 
 - Merged feature-a and main.
-- 
+- Made some changes to file2.md.
+- Didn't stage it.
+- Ran `git stash`, and tested stash list using `git stash list`.
+- Ran `git clean`, it cleared the recent changes.
+- Ran `git stash pop` to apply the stashed files and remove the current stash from stash list.
