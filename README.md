@@ -24,3 +24,8 @@
 - Ran `git stash`, and tested stash list using `git stash list`.
 - Ran `git clean`, it cleared the recent changes.
 - Ran `git stash pop` to apply the stashed files and remove the current stash from stash list.
+- Tried to stash the files which aren't tracked and got the response as "No local changes to save".
+- Tried again using `git stash -u` and this time the changes are saved and repeated the above process which worked as expected.
+
+## Interactive staging
+
