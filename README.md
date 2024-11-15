@@ -45,4 +45,26 @@
 
 ## Git Reset
 
-- 
+- Added a new file file4.md and added some text.
+- Stage it and committed
+- Tested the 3 options of reset: --soft, --mixed, --hard and checked the status using `git status`.
+- The simple `git reset HEAD^` or `git reset --mixed HEAD^` did unstaged the file.
+- The `git reset --soft HEAD^` did reverse the commit. i.e file4 moved from committed state to staged state.
+- The `git reset --hard HEAD^` did complete removal of changes from working directory, staging and committed states.
+- They all does the same thing of moving the pointer back to specified location.
+
+## Git Show
+
+- Tested various uses of `git show`.
+- `git show {commit-hash}`: Displayed the detailed info of the commit including commit hash, author, date, commit message, diff.
+- `git show {branch-name}`: Displayed the info about the specified branch including commit hash, author, date, commit message, diff.
+- `git show {commit-hash}:{filename}`: Displayed the changes of the specified file from the specified commit.
+- `git show {commit-hash-1}...{commit-hash-2}`: Displayed the changes between the 2 specified commits.
+
+## Git Interactive rebase
+
+- Currently, we have feature-a, feature-b, main branches.
+- Entered interactive rebase mode by `git rebase -i {branch/commit}`.
+- Reordered the commits by reordering them in the editor.
+- Renamed them by using `r` command.
+- combined multiple commits or squashed using `squash` and entered the new commit message when prompted.
