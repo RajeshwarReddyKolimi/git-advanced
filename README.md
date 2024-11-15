@@ -68,3 +68,8 @@
 - Reordered the commits by reordering them in the editor.
 - Renamed them by using `r` command.
 - combined multiple commits or squashed using `squash` and entered the new commit message when prompted.
+
+## Git reflog
+
+- Ran `git reflog` and understood that it shows not just commit history but also merge, rebase history, branching history.
+- It provides above additional details unlike `git log` which only shows commit history.
