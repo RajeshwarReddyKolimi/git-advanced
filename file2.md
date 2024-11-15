@@ -1,1 +1,1 @@
-New file. Some changes for stashing.
+New file. Some changes for stashing. Changed some text for interactive staging.
