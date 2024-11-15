@@ -29,3 +29,11 @@
 
 ## Interactive staging
 
+- Made changes to file2.md and file3.md.
+- Entered into interactive staging using `git add -i`.
+- First saw the status using `1` which shown the 2 unstage files.
+- Then selected `2` which is update to stage the files.
+- Tried reverting using `3` and unstaged the files.
+- Againg staged them using `2`.
+
+## 
